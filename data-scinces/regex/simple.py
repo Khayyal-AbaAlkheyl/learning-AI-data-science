@@ -1,4 +1,6 @@
 import re
+from gc import set_debug
+from http.cookiejar import is_HDN
 
 text_to_search = '''
 abcdefghijklmnopqurtuvwxyz
@@ -36,11 +38,4 @@ for match in matches:
     print(match)
 
 
-# with open('data.txt','r') as f:
-#     content = f.read()
-#
-#     matches = pattern1.finditer(content)
-#
-# for match in matches:
-#     print(match)
-
+for c loop in range(10):
