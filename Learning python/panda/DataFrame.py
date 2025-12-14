@@ -67,3 +67,4 @@ print(s1.loc[1])
 
 
 print(s2.iloc[1])
+print(s1.iloc[1])
